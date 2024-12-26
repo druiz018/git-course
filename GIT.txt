@@ -1,0 +1,46 @@
+/******* GIT ********/ 
+
+git init --Inicializar proyecto git
+git add <file>
+git status
+git commin
+git push
+git pull
+git clone
+
+--Configurar el correo del usuario que realiza los cambios
+git config --global user.email "deinny18@gmail.com"
+
+--Configurar el nombre del usuario que realiza los cambios
+git congif --global user.name "Deinny"
+
+luego git commit para realizar el mi primer commit presionar i para escribir el comentario luego esc y escribir :wq para completar la operación
+
+para ver el resultado usando el comando 
+git log
+
+después de realizar cambios en un archivo al ejecutar git status me indica el archvivo modificado
+si ejecutamos el comando
+git checkout -- nombre_archvio.extension
+reversa los cambios y deja el archivo en el estado original
+
+en cambio si ejecutamos el comando 
+git diff nombre_archvio.extension
+
+muestra el código que se ha modificado
+
+Realizar un commit sin ingresar al editor y enviar el mensaje desde el terminal
+git commit -m "he agregado un .gitignore"
+
+para gestionar las versiones se usan los comandos:
+
+git Branch --consultar las versiones
+git Branch nombre_version --crear la versión de git
+git checkout nombre_version -- cambia a la versión deseada
+
+
+agregar todos los archivos para no realizarlo individual 
+git add . --con el . agrega todos los archivos 
+
+
+/******* GIT ********/ 
