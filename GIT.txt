@@ -38,6 +38,8 @@ git Branch --consultar las versiones
 git Branch nombre_version --crear la versión de git
 git checkout nombre_version -- cambia a la versión deseada
 
+//Clonar un repositorio
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 agregar todos los archivos para no realizarlo individual 
 git add . --con el . agrega todos los archivos 
